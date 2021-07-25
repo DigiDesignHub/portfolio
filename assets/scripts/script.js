@@ -41,8 +41,8 @@ $(document).ready(function(){
 function changeBG()
 {
 	const images = [
-		'url("assets/images/elephants.png")',
-		'url("assets/images/leaf.png")'
+		'url("assets/images/background/elephants.png")',
+		'url("assets/images/background/leaf.png")'
 	];
 
 	const bg = images[Math.floor(Math.random() * images.length)];

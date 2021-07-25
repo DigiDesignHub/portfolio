@@ -141,7 +141,7 @@ section{
 .home{
     display: flex;
     /*background: #552200    /*no-repeat center;*/
-    background: #8c4100    no-repeat center;
+    background: #653610    no-repeat center;
     background-image: url("../images/elephants.png");
     background-size: contain;
     background-attachment: fixed;
@@ -221,7 +221,7 @@ section{
 /* services section styling */
 .skills, .contact{
     color:#fff;
-    background: #8c4100 ;
+    background: #653610 ;
 }
 
 .services {
@@ -234,7 +234,7 @@ section{
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #8c4100;
+    background: #653610;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -281,7 +281,7 @@ section{
 .skills .skills-content .left a{
     display: inline-block;
     background: #00cfb3;
-    color: #8c4100 ;
+    color: #653610 ;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -436,7 +436,7 @@ section{
 }
 /* footer section styling */
 footer{
-    background: #8c4100 ;
+    background: #653610 ;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -477,7 +477,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #8c4100 ;
+        background: #653610 ;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -614,7 +614,7 @@ section .title-about::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #8c4100;
+    color: #653610;
     background: #fff;
 }
 
@@ -651,7 +651,7 @@ section .title-skills::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #8c4100 ;
+    background: #653610 ;
 }
 
 .skills .title-skills::after{
@@ -686,7 +686,7 @@ section .title-services::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #8c4100 ;
+    color: #653610 ;
     background: #fff;
 }
 
@@ -724,7 +724,7 @@ section .title-contact::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #8c4100 ;
+    background: #653610 ;
 }
 .contact .title-contact::after{
     content: "Contact Me";

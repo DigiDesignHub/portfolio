@@ -321,23 +321,23 @@ section{
     top: 0;
     background: #00cfb3;
 }
-.skills-content .right .photoshop::before{
-    width: 90%;
+.skills-content .right .logo design::before{
+    width: 75%;
 }
-.skills-content .right .gimp::before{
-    width: 60%;
-}
-.skills-content .right .illustrator::before{
+.skills-content .right .video editing::before{
     width: 80%;
 }
-.skills-content .right .gif::before{
-    width: 50%;
+.skills-content .right .illustration::before{
+    width: 75%;
 }
-.skills-content .right .graphic::before{
+.skills-content .right .motion graphics & typography::before{
+    width: 80%;
+}
+.skills-content .right .morphing::before{
     width: 70%;
 }
-.skills-content .right .logo::before{
-    width: 70%;
+.skills-content .right .poster/flyer design::before{
+    width: 75%;
 }
 
 

@@ -321,22 +321,22 @@ section{
     top: 0;
     background: #00cfb3;
 }
-.skills-content .right .logo design::before{
+.skills-content .right .logo_design::before{
     width: 75%;
 }
-.skills-content .right .video editing::before{
+.skills-content .right .video_editing::before{
     width: 80%;
 }
 .skills-content .right .illustration::before{
     width: 75%;
 }
-.skills-content .right .motion graphics & typography::before{
+.skills-content .right .mgt::before{
     width: 80%;
 }
 .skills-content .right .morphing::before{
     width: 70%;
 }
-.skills-content .right .poster/flyer design::before{
+.skills-content .right .post_flyer::before{
     width: 75%;
 }
 

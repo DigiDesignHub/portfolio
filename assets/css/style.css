@@ -63,7 +63,7 @@ section{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: #00cfb3;
+    background: #fff;
 }
 .navbar .max-width{
     display: flex;
@@ -95,10 +95,15 @@ section{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
+    color: #FF4E37;
+}
+
+.navbar .menu li a{
     color: #00cfb3;
 }
+
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: #FF4E37;
 }
 
 /* menu btn styling */
@@ -140,8 +145,8 @@ section{
 /* home section styling */
 .home{
     display: flex;
-    /*background: #552200    /*no-repeat center;*/
-    background: #653610    no-repeat center;
+    /*background: #552200  653610   /*no-repeat center;*/
+    background: #9a5f30    no-repeat center;
     background-image: url("../images/elephants.png");
     background-size: contain;
     background-attachment: fixed;
@@ -221,7 +226,7 @@ section{
 /* services section styling */
 .skills, .contact{
     color:#fff;
-    background: #653610 ;
+    background: #9a5f30 ;
 }
 
 .services {
@@ -234,7 +239,7 @@ section{
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #653610;
+    background: #9a5f30;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -281,7 +286,7 @@ section{
 .skills .skills-content .left a{
     display: inline-block;
     background: #00cfb3;
-    color: #653610 ;
+    color: #9a5f30 ;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -436,7 +441,7 @@ section{
 }
 /* footer section styling */
 footer{
-    background: #653610 ;
+    background: #9a5f30 ;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -477,7 +482,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #653610 ;
+        background: #9a5f30 ;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -614,7 +619,7 @@ section .title-about::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #653610;
+    color: #9a5f30;
     background: #fff;
 }
 
@@ -651,7 +656,7 @@ section .title-skills::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #653610 ;
+    background: #9a5f30 ;
 }
 
 .skills .title-skills::after{
@@ -686,7 +691,7 @@ section .title-services::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #653610 ;
+    color: #9a5f30 ;
     background: #fff;
 }
 
@@ -724,7 +729,7 @@ section .title-contact::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #653610 ;
+    background: #9a5f30 ;
 }
 .contact .title-contact::after{
     content: "Contact Me";
@@ -805,8 +810,7 @@ section .title-contact::after{
     display: table;
 }
 
-
-img {
+.column_img img{
     object-fit: cover;
     margin-top: 3vh;
     max-height: 300px;
@@ -814,6 +818,17 @@ img {
     height: 300px;
     width: 300px;
     margin-bottom: 10vh;
+}
+img {
+    /*
+    object-fit: cover;
+    margin-top: 3vh;
+    max-height: 300px;
+    max-width: 300px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10vh;
+    */
     /*
     height: 70%;
     width: auto;*/

@@ -53,7 +53,7 @@ section{
 
 
 /* navbar styling */
-.navbar{
+/*.navbar{
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -64,7 +64,28 @@ section{
 .navbar.sticky{
     padding: 15px 0;
     background: #fff;
+}*/
+
+/*.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+}*/
+.navbar.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /*padding: 30px 0; */
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    padding: 15px 0;
+    background: #ffff9bff;
 }
+
+
 .navbar .max-width{
     display: flex;
     align-items: center;

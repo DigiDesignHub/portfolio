@@ -92,7 +92,8 @@ section{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: #fff;
+    /*color: #fff;*/
+    color: #ffff9bff;
     font-size: 35px;
     font-weight: 600;
 }

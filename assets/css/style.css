@@ -81,8 +81,8 @@ section{
     /*padding: 30px 0; */
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    padding: 15px 0;
-    background: #ffff9bff;
+    padding: 30px 0;
+    background: #fff;
 }
 
 
@@ -92,8 +92,8 @@ section{
     justify-content: space-between;
 }
 .navbar .logo a{
-    /*color: #fff;*/
-    color: #ffff9bff;
+    color: #fff;
+    /*color: #ffff9bff;*/
     font-size: 35px;
     font-weight: 600;
 }

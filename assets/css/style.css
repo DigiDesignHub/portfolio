@@ -53,39 +53,19 @@ section{
 
 
 /* navbar styling */
-/*.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 30px 0;
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
-}
-.navbar.sticky{
-    padding: 15px 0;
-    background: #fff;
-}*/
-
 .navbar{
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 21px 0;
+    padding: 8px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
-    background: #fff;
+    background-color: #fff;
 }
 .navbar.sticky{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 21px 0; 
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+    padding: 8px 0;
     background: #fff;
 }
-
-
 .navbar .max-width{
     display: flex;
     align-items: center;
@@ -129,11 +109,12 @@ section{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: #00cfb3;
     font-size: 23px;
     cursor: pointer;
     display: none;
 }
+
 .scroll-up-btn{
     position: fixed;
     height: 45px;
@@ -167,7 +148,7 @@ section{
 .home{
     display: flex;
     /*background: #552200  653610   /*no-repeat center;*/
-    background: #9a5f30    no-repeat center;
+    background: #552200    no-repeat center;
     background-image: url("../images/elephants.png");
     background-size: contain;
     background-attachment: fixed;
@@ -247,10 +228,10 @@ section{
 /* services section styling */
 .skills, .contact{
     color:#fff;
-    background: #9a5f30 ;
+    background: #552200 ;
 }
 
-.services {
+.services{
     color:#fff;
     background: #fff;
 }
@@ -260,7 +241,7 @@ section{
 
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #9a5f30;
+    background: #552200;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -268,7 +249,7 @@ section{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: #00cfb3;
+    background: #FF4E37;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -307,7 +288,7 @@ section{
 .skills .skills-content .left a{
     display: inline-block;
     background: #00cfb3;
-    color: #9a5f30 ;
+    color: #552200 ;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
@@ -317,7 +298,8 @@ section{
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: #00cfb3;
+    color: #FF4E37;
+    border: 2px solid #FF4E37;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -457,12 +439,13 @@ section{
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #00cfb3;
+  color: #ff4e37;
+  border: 2px solid #ff4e37;
   background: none;
 }
 /* footer section styling */
 footer{
-    background: #9a5f30 ;
+    background: #552200 ;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -503,7 +486,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #9a5f30 ;
+        background: #552200 ;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -640,7 +623,7 @@ section .title-about::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #9a5f30;
+    color: #552200;
     background: #fff;
 }
 
@@ -677,7 +660,7 @@ section .title-skills::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #9a5f30 ;
+    background: #552200 ;
 }
 
 .skills .title-skills::after{
@@ -712,7 +695,7 @@ section .title-services::after{
     font-size: 2.5rem;
     padding: 0 5px;
     transform: translateX(-50%);
-    color: #9a5f30 ;
+    color: #552200 ;
     background: #fff;
 }
 
@@ -750,7 +733,7 @@ section .title-contact::after{
     padding: 0 5px;
     transform: translateX(-50%);
     color: #fff;
-    background: #9a5f30 ;
+    background: #552200 ;
 }
 .contact .title-contact::after{
     content: "Contact Me";
@@ -849,8 +832,7 @@ img {
     height: 300px;
     width: 300px;
     margin-bottom: 10vh;
-    */
-    /*
+
     height: 70%;
     width: auto;*/
 }

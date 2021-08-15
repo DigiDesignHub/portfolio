@@ -41,8 +41,13 @@ $(document).ready(function(){
 function changeBG()
 {
 	const images = [
-		'url("assets/images/background/elephants.png")',
-		'url("assets/images/background/leaf.png")'
+		'url("assets/images/background/Logo-Secret-Boutique-Watermark.png")',
+		'url("assets/images/background/Maha-Fashion-Boutique-Watermark.png")',
+		'url("assets/images/background/CPZ-LOGO-RGB-large-size-1-watermark.jpg")',
+		'url("assets/images/background/Mom-Bro-Watermark.png")',
+		'url("assets/images/background/Poster-Design-watermark.png")',
+		'url("assets/images/background/RK-Laxman-Watermark.png")',
+		'url("assets/images/background/fred-flyer-watermark.png")'
 	];
 
 	const bg = images[Math.floor(Math.random() * images.length)];

@@ -87,9 +87,10 @@ function onMake() {
   offIllus();
   offGraph();
   /*document.getElementById("overlay_make").style.display = "grid";*/
+  window.open('https://www.youtube.com/playlist?list=PLdo8JdbcHjFSagSVdlqHPHCVR_xt2UqpY');	
 }
 
 function offMake() {
   /*document.getElementById("overlay_make").style.display = "none";*/
-  window.open('https://www.youtube.com/playlist?list=PLdo8JdbcHjFSagSVdlqHPHCVR_xt2UqpY')
+  
 }

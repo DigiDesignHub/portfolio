@@ -56,7 +56,7 @@ function changeBG()
 	
 }
 
-setInterval(changeBG, 750);
+setInterval(changeBG, 1500);
 
 
 function onGraph() {

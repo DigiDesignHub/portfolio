@@ -36,6 +36,8 @@ $(document).ready(function(){
 });
 
 
+document.getElementById("home").style.backgroundImage = 'url("assets/images/background/Mom-Bro-Watermark.png")';
+
 // Random background generation
 	
 function changeBG()
@@ -56,7 +58,7 @@ function changeBG()
 	
 }
 
-setInterval(changeBG, 1500);
+setInterval(changeBG, 1750);
 
 
 function onGraph() {

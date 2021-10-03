@@ -461,6 +461,7 @@ footer span a:hover{
 .overlay_close {
     position: fixed;
     margin-left: 97%;
+    color: #000;
 }
 
 /* responsive media query start */

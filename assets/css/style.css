@@ -458,6 +458,10 @@ footer span a:hover{
     text-decoration: underline;
 }
 
+.overlay_close {
+    position: fixed;
+    margin-left: 97%;
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
@@ -465,11 +469,19 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .overlay_close {
+        margin-left: 95%;
+        margin-top: 3%;
+    }
 }
 
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
+    }
+    .overlay_close {
+        margin-left: 95%;
+        margin-top: 10%;
     }
 }
 @media (max-width: 947px){
@@ -540,6 +552,10 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .overlay_close {
+        margin-left: 95%;
+        margin-top: 10%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -561,6 +577,10 @@ footer span a:hover{
     .services .serv-content .column_img{
         width: 100%;
         margin-top: 11%;
+    }
+    .overlay_close {
+        margin-left: 95%;
+        margin-top: 13%;
     }
 }
 
@@ -592,6 +612,10 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .overlay_close {
+        margin-left: 90%;
+        margin-top: 12%;
     }
 }
 

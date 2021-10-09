@@ -104,7 +104,10 @@ section{
 }
 
 .navbar.sticky .menu li a:hover{
-    color: #FF4E37;
+background-color: #00cfb3;
+color : #fff; 
+
+    /*color: #FF4E37;*/
 }
 
 /* menu btn styling */

@@ -108,7 +108,7 @@ section{
     font-weight: 500;
     padding: 8px 16px;
    /* margin-top: 20px; */
-    border-radius: 4px;
+    border-radius: 2px;
 	/*border-radius: 6px; */
     border: 2px solid #00cfb3;
     transition: all 0.3s ease;
@@ -129,7 +129,7 @@ color: #00cfb3;
     font-weight: 500;
     padding: 8px 16px;
    /* margin-top: 20px; */
-    border-radius: 4px;
+    border-radius: 2px;
 	/*border-radius: 6px; */
     border: 2px solid #00cfb3;
     transition: all 0.3s ease;

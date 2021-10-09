@@ -98,8 +98,16 @@ section{
 }
 .navbar .menu li a:hover{
 	color: #00cfb3;
-     border: 2px solid #00cfb3;
+     /*border: 2px solid #00cfb3;*/
 	background: none;
+	
+	font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #00cfb3;
+    transition: all 0.3s ease;
 	
    /* color: #FF4E37; */
 }
@@ -110,8 +118,16 @@ section{
 
 .navbar.sticky .menu li a:hover{
 color: #00cfb3;
-     border: 2px solid #00cfb3;
+     /*border: 2px solid #00cfb3;*/
 	background: none;
+	
+	font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #00cfb3;
+    transition: all 0.3s ease;
 
     /*color: #FF4E37;*/
 }

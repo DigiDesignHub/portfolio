@@ -2,6 +2,9 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 *{
     margin: 0;
     padding: 0;
@@ -458,6 +461,7 @@ color: #00cfb3;
   height: 45px;
   outline: none;
   font-size: 18px;
+	font-family: 'Poppins', sans-serif;
   font-weight: 500;
   border-radius: 6px;
   cursor: pointer;
@@ -471,6 +475,33 @@ color: #00cfb3;
   border: 2px solid #ff4e37;
   background: none;
 }
+
+*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/*social media icons*/
+/*.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+} */
+
 /* footer section styling */
 footer{
     background: #552200 ;

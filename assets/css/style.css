@@ -97,7 +97,11 @@ section{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: #FF4E37;
+	color: #00cfb3;
+     border: 2px solid #00cfb3;
+	background: none;
+	
+   /* color: #FF4E37; */
 }
 
 .navbar .menu li a{

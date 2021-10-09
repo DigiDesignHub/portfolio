@@ -104,8 +104,9 @@ section{
 }
 
 .navbar.sticky .menu li a:hover{
-background-color: #00cfb3;
-color : #fff; 
+color: #00cfb3;
+     border: 2px solid #00cfb3;
+	background: none;
 
     /*color: #FF4E37;*/
 }

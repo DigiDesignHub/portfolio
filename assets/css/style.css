@@ -58,7 +58,8 @@ section{
     width: 100%;
     z-index: 999;
     padding: 8px 0;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
     transition: all 0.3s ease;
     background-color: #fff;
 }
@@ -159,7 +160,8 @@ color: #00cfb3;
     height: 100vh;
     color: #fff;
     min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
 }
 .home .max-width{
   width: 100%;
@@ -632,7 +634,8 @@ section .title-about{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
 }
 
 section .title-about::before{
@@ -668,7 +671,8 @@ section .title-skills{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
 }
 
 section .title-skills::before{
@@ -704,7 +708,8 @@ section .title-services{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
 }
 
 section .title-services::before{
@@ -741,7 +746,8 @@ section .title-contact{
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: 'Ubuntu', sans-serif;
+	font-family: 'Poppins', sans-serif;
+   /* font-family: 'Ubuntu', sans-serif; */
 }
 
 section .title-contact::before{

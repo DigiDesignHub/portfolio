@@ -805,7 +805,8 @@ section .title-contact::after{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+ /* background-color: rgba(0,0,0,0.5);*/
+	background-color: #00cfb3;
   z-index: 2;
   cursor: pointer;
 }
@@ -822,7 +823,8 @@ section .title-contact::after{
     right: 0;
     bottom: 0;
     /*background-color: rgba(0,0,0,0.5);*/
-    background-color: #F9D385;
+   /* background-color: #F9D385; */      /*cream bg*/
+	background-color: #00cfb3;	/*turquoise*/
     z-index: 2;
     cursor: pointer;
 }
@@ -839,7 +841,8 @@ section .title-contact::after{
     right: 0;
     bottom: 0;
     /*background-color: rgba(0,0,0,0.5);*/
-    background-color: #F9D385;
+   /* background-color: #F9D385; */
+	background-color: #00cfb3;
     z-index: 2;
     cursor: pointer;
 }

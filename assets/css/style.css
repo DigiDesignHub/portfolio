@@ -479,14 +479,16 @@ color: #00cfb3;
 }
 
 .fa {
-  /*padding: 20px;
+	color: #00cfb3;
+	background: #fff;
+  padding: 4px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;*/
+  margin: 5px 2px;
 	
-	color: #00cfb3;
+	/*color: #00cfb3;
 	background: #fff;
 	font-size: 18px;
     font-weight: 500;
@@ -495,13 +497,20 @@ color: #00cfb3;
     /*border-radius: 6px;*/
 	/*border-radius: 6px; */
     /*border: 2px solid #00cfb3; */
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 	
 }
 .fa:hover {
     /*opacity: 0.7;*/
 	
-	color: #00cfb3;
+	padding: 4px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+	
+	/*color: #00cfb3;
 	background: #fff;
 	font-size: 18px;
     font-weight: 500;
@@ -510,7 +519,7 @@ color: #00cfb3;
     border-radius: 6px;
 	/*border-radius: 6px; */
     border: 2px solid #00cfb3; 
-    transition: all 0.3s ease;
+    transition: all 0.3s ease;*/
 }
 
 

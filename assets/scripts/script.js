@@ -96,3 +96,15 @@ function offMake() {
   /*document.getElementById("overlay_make").style.display = "none";*/
   
 }
+
+//This segment displays the validation rule for E-mail.
+function emailValidation(inputtext, alertMsg){
+var emailExp = /^[w-.+]+@[a-zA-Z0-9.-]+.[a-zA-z0-9]{2,4}$/;
+if(inputtext.value.match(emailExp)){
+return true;
+}else{
+document.getElementById('p3').innerText = alertMsg;
+inputtext.focus();
+return false;
+}
+}

@@ -178,7 +178,8 @@ color: #00cfb3;
     display: flex;
     /*background: #552200  653610   /*no-repeat center;*/
     background: #552200    no-repeat center;
-    background-image: url("../images/elephants.png");
+    /*background-image: url("../images/elephants.png"); */
+      background-image: url("https://github.com/DigiDesignHub/portfolio/blob/main/assets/images/background/CPZ-LOGO-RGB-large-size-1-watermark.jpg");	
     background-size: contain;
     background-attachment: fixed;
     height: 100vh;

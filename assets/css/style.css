@@ -377,13 +377,14 @@ color: #00cfb3;
 .skills-content .right .mgt::before{
     width: 80%;
 }  
-.skills-content .right .video_editing&morphing::before{
+.skills-content .right .vem::before{
     width: 70%;
 }
 
 /* .skills-content .right .morphing::before{
     width: 70%;
 } */
+
 .skills-content .right .post_flyer::before{
     width: 75%;
 }

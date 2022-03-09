@@ -43,6 +43,7 @@ document.getElementById("home").style.backgroundImage = 'url("assets/images/back
 function changeBG()
 {
 	const images = [
+		'url("assets/images/background/Yummy-Sourashtra-Volume-2.JPG")',
 		'url("assets/images/background/Logo-Secret-Boutique-Watermark.png")',
 		'url("assets/images/background/Maha-Fashion-Boutique-Watermark.png")',
 		'url("assets/images/background/CPZ-LOGO-RGB-large-size-1-watermark.jpg")',

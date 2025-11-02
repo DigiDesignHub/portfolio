@@ -50,7 +50,8 @@ function changeBG()
 		'url("assets/images/background/Mom-Bro-Watermark.png")',
 		'url("assets/images/background/Poster-Design-watermark.png")',
 		'url("assets/images/background/RK-Laxman-Watermark.png")',
-		'url("assets/images/background/fred-flyer-watermark.png")'
+		'url("assets/images/background/fred-flyer-watermark.png")',
+	    'url("assets/images/background/Maha-Boutique-Banner.png")'
 	];
 
 	const bg = images[Math.floor(Math.random() * images.length)];
